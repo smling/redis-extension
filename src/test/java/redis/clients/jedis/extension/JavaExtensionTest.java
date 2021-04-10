@@ -10,7 +10,7 @@ public class JavaExtensionTest {
     String dummyKey="dummy-key";
     String dummyResponse="Dummy response";
 
-    protected JedisExtendsion jedis = new JedisExtendsion();
+    protected JedisExtension jedis = new JedisExtension();
     @Test
     void getTest() {
         String response = jedis.get(dummyKey, new GetCommand() {
