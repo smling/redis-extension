@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'redis.clients'
-version '3.5.2'
+version '4.4.0-m2'
 
 repositories {
     mavenCentral()
